@@ -9,7 +9,7 @@ using Random
 using StatsPlots
 using JLD
 using StatsBase,Statistics
-vars = matread("C:/Users/zhang/Desktop/投稿/data/new12city16-19.mat");
+vars = matread("./new12city16-19.mat");
 T = vars["temp"];
 R = vars["rain"];
 AT = vars["avetemp"];
@@ -18,8 +18,8 @@ AD = vars["MOI"];
 city = 12;
 ann = Chain(Dense(2,10,sigmoid),Dense(10,10,sigmoid),Dense(10,1,sigmoid));
 panu = 151;
-p3n = load("C:/Users/zhang/Desktop/code/myparam/param.jld","param");
-rate = load("C:/Users/zhang/Desktop/code/myparam/rate.jld","param");
+p3n = load("./param.jld","param");
+rate = load("./rate.jld","param");
 
 p1,re = Flux.destructure(ann);
 ann = re(p3n[1:panu])
