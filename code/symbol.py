@@ -65,7 +65,6 @@ name = "./networktest.csv"
 df = pd.read_csv(name)
 x_test = df[['x1','x2']]
 y_test = df['x3']
-# 在测试集上评估最佳表达式
 y_test_pred = est_gp.predict(x_test)
 test_mse = mean_squared_error(y_test, y_test_pred)
 test_mae = mean_absolute_error(y_test, y_test_pred)
