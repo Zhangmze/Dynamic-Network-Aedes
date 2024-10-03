@@ -1,1 +1,12 @@
-
+The Mosquito Ovitrap Index (MOI) of these cities, providing insights into the fluctuation
+of Aedes mosquito populations, was obtained from the Guangdong Provincial Health Commission (https://wsjkw.gd.gov.cn). 
+According to the monitoring guidelines for dengue vector
+published by the Guangdong Provincial Health Commission, monitoring staff establish multiple monitoring points in each city to assess the populations of Aedes mosquitoes, including
+both Aedes albopictus and Aedes aegypti. The combined results of these two mosquito species
+will be used as the overall monitoring results for Aedes mosquitos. The Guangdong Provincial
+Health Commission reports monitoring results every half month. These reports detail the proportions of four categories of monitoring points in each city—meeting epidemic prevention
+and control standards, low-density, medium-density, and high-density areas—with corresponding MOI values for each category. Based on the distribution of monitoring points across
+different monitoring levels, we can calculate the data of 100 monitoring points for each city. In
+addition, considering the differences in data reporting methods before 2015 and the potential
+impact of the COVID-19 pandemic on the population dynamics of Aedes mosquitoes after
+2020, the study period was selected from 2016 to 2019 to ensure reliability and accuracy.
